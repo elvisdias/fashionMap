@@ -1,16 +1,21 @@
 # fashionMap
 
-fashionMap is a Python study for clustering fashion images based on the clothes similarity. Coded on colab notebooks to make use of its free GPUs, required by the algorithm. 
+fashionMap is a study done trying technologys for clustering fashion images based on the clothes similarity. 
 
-## Installation
+In order to analyse the images was used the neural network for image segmentation called [Mask R-CNN](https://github.com/matterport/Mask_RCNN). The model was applied to the [modanet](https://github.com/eBay/modanet) dataset and then upon the results was applied feature extraction to obtain a 2D t-SNE representation from the images, clustered by similarity. 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+As a proof of concept it worked as expected, creating space for lots of future improvements.
+Note: It was coded on colab notebooks to make use of its free GPUs, required by the algorithm. 
+
+## Installation/Usage
+
+Download 
 
 ```bash
 pip install foobar
 ```
 
-## Usage
+## Future Work
 
 ```python
 import foobar
@@ -19,10 +24,3 @@ foobar.pluralize('word') # returns 'words'
 foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
