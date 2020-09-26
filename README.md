@@ -26,7 +26,7 @@ Note: It was coded on colab notebooks to make use of its free GPUs, required by 
 pip install foobar
 ```
 ## Snapshots 
-
+[](https://github.com/elvisdias/fashionMap/blob/master/snapshots/rastfairy.PNG)
 
 ## Future Work
 
