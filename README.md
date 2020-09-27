@@ -6,6 +6,8 @@ In order to analyse the images was used the neural network for image segmentatio
 
 This project was entirely conceptualize and put together by myself, altough I was happy to find very helpful content online to guide me through. As a proof of concept it worked as expected, creating space for lots of future improvements.
 
+[Written project] (https://github.com/elvisdias/TCC). 
+
 Note: It was coded on colab notebooks to make use of its free GPUs, required by the algorithm. 
 
 ## Setup 
